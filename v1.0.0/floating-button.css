@@ -20,6 +20,9 @@
     color: var(--white);
     background-color: var(--primary);
     border-radius: 10%;
+    width: 2.5rem;
+    height: 2.5rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgb(157, 150, 150);
 }
 
 /* FOCUS FLOATING BUTTON */
@@ -42,59 +45,77 @@
     align-items: center;
     font-weight: 550;
     color: var(--white);
+    font-size: 24px;
 }
 
 /* POSITION FLOATING BUTTON */
 .floating-top-start{
-    top: 2rem;
-    left: 2rem;
+    top: 2rem !important;
+    left: 2rem !important;
 }
 
 .floating-top-end{
-    top: 2rem;
-    right: 2rem;
+    top: 2rem !important;
+    right: 2rem !important;
 }
 
 .floating-bottom-start{
-    bottom: 2rem;
-    left: 2rem;
+    bottom: 2rem !important;
+    left: 2rem !important;
 }
 
 .floating-bottom-end{
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 2rem !important;
+    right: 2rem !important;
 }
 
 /* SIZE FLOATING BUTTON */
-.floating-sm{
-    width: 2.75rem;
-    height: 2.75rem;
+.floating-xs{
+    width: 1.5rem !important;
+    height: 1.5rem !important;
 }
 
-.floating-md{
-    width: 3.25rem;
-    height: 3.25rem;
+.floating-sm{
+    width: 2rem !important;
+    height: 2rem !important;
 }
 
 .floating-lg{
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 2.75rem !important;
+    height: 2.75rem !important;
+}
+
+.floating-xl{
+    width: 3.15rem !important;
+    height: 3.15rem !important;
 }
 
 /* ICON SIZE FLOATING BUTTON */
-.floating-icon-sm{
-    font-size: 18px;
+.floating-icon-xs{
+    font-size: 14px !important;
 }
 
-.floating-icon-md{
-    font-size: 24px;
+.floating-icon-sm{
+    font-size: 18px !important;
 }
 
 .floating-icon-lg{
-    font-size: 28px;
+    font-size: 26px !important;
+}
+
+.floating-icon-xl{
+    font-size: 30px !important;
 }
 
 /* CIRCLE FLOATING BUTTON */
 .floating-circle{
-    border-radius: 50%;
+    border-radius: 50% !important;
+}
+
+/* TEXT FLOATING */
+.floating-text.floating-button{
+    width: auto !important;
+    height: auto !important;
+    padding: 0.6rem !important;
+    border-radius: 25vh !important;
 }
