@@ -1,0 +1,9 @@
+/*
+ * Floating Button v1.0.0 (https://github.com/LucasSantus/floating-button)
+ * Copyright 2021 - Author LucasSantus
+ * GitHub LucasSantus - (https://github.com/LucasSantus)
+ * Documentation Floating Button - (https://oondev.github.io/components/floating-button/)
+ * Licensed under MIT (https://github.com/LucasSantus/floating-button/blob/main/LICENSE)
+ */
+
+:root{--primary:hsl(225, 69%, 59%);--primary-hover:hsl(225, 69%, calc(59% * .85));--primary-focus:hsl(225, 69%, calc(59% * .5));--white:#FFF}.floating-button{text-decoration:none;position:fixed;color:var(--white);background-color:var(--primary);border-radius:10%}.floating-button:focus{color:var(--primary);background-color:var(--primary-focus);border:1px solid var(--primary)}.floating-button:hover{background-color:var(--primary-hover)}.floating-button .material-icons{display:flex;height:100%;justify-content:center;align-items:center;font-weight:550;color:var(--white)}.floating-top-start{top:2rem;left:2rem}.floating-top-end{top:2rem;right:2rem}.floating-bottom-start{bottom:2rem;left:2rem}.floating-bottom-end{bottom:2rem;right:2rem}.floating-sm{width:2.75rem;height:2.75rem}.floating-md{width:3.25rem;height:3.25rem}.floating-lg{width:4.5rem;height:4.5rem}.floating-icon-sm{font-size:18px}.floating-icon-md{font-size:24px}.floating-icon-lg{font-size:28px}.floating-circle{border-radius:50%}
