@@ -16,7 +16,6 @@
 /* FLOATING BUTTON */
 .floating-button {
     text-decoration: none;
-    position: fixed;
     color: var(--white);
     background-color: var(--primary);
     border-radius: 10%;
@@ -35,6 +34,7 @@
 /* HOVER FLOATING BUTTON */
 .floating-button:hover {
     background-color: var(--primary-hover);
+    color: white;
 }
 
 /* ICON FLOATING BUTTON */
@@ -50,21 +50,25 @@
 
 /* POSITION FLOATING BUTTON */
 .floating-top-start{
+    position: fixed;
     top: 2rem !important;
     left: 2rem !important;
 }
 
 .floating-top-end{
+    position: fixed;
     top: 2rem !important;
     right: 2rem !important;
 }
 
 .floating-bottom-start{
+    position: fixed;
     bottom: 2rem !important;
     left: 2rem !important;
 }
 
 .floating-bottom-end{
+    position: fixed;
     bottom: 2rem !important;
     right: 2rem !important;
 }
@@ -81,13 +85,13 @@
 }
 
 .floating-lg{
-    width: 2.75rem !important;
-    height: 2.75rem !important;
+    width: 3rem !important;
+    height: 3rem !important;
 }
 
 .floating-xl{
-    width: 3.15rem !important;
-    height: 3.15rem !important;
+    width: 3.5rem !important;
+    height: 3.5rem !important;
 }
 
 /* ICON SIZE FLOATING BUTTON */
@@ -113,7 +117,7 @@
 }
 
 /* TEXT FLOATING */
-.floating-text.floating-button{
+.floating-button.floating-text{
     width: auto !important;
     height: auto !important;
     padding: 0.6rem !important;
