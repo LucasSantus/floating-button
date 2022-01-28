@@ -1,7 +1,7 @@
 <h1 align="center">Floating Button</h1>
 
 <h6 align="center"> 
-	Se você quiser visualizar a documentação do projeto, clique <a href="https://oondev.github.io/components/floating-button/">aqui</a>.
+	Se você quiser visualizar a documentação do projeto, clique <a href="https://oondev.github.io/componentes/floating-button/">aqui</a>.
 </h6>
 
 <h3 id="sobre">:information_source: Sobre</h3>
